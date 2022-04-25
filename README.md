@@ -2,10 +2,7 @@ Hello, everyone.
 
 Welcome to the Github Repo for our final project for CSC 2053 | Platform Based Computing. Here you can find all files, code, edits, commits, and other information involved in the development process for this website.
 
-The editors of this repository are:
-~ Owen Korz
-~ Ralph Gatdula
-~ Anthony Nuccio
+The editors of this repository are: Owen Korz, Ralph Gatdula, and Anthony Nuccio
 
 The design of this website is simple. The browser will prompt the user to input their current emotional state / feeling (i.e. happy, sad, etc.). The website will process the information the retrieve a movie based on their emotion. It is achievied using a free, open-sourced movie API.
 
