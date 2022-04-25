@@ -1,0 +1,9 @@
+name="monty.jpg" title="Monty Python and the Holy Grail" year="1975" link="https://www.imdb.com/title/tt0071853/"
+
+name="rock.jpg" title="School of Rock" year="2003" link="https://www.imdb.com/title/tt0332379/"
+
+name="airplane.jpg" title="Airplane!" year="1980" link="https://www.imdb.com/title/tt0080339/"
+
+name="anchorman.jpg" title="Anchorman" year="2004" link="https://www.imdb.com/title/tt0357413/"
+
+name="superBad.jpg" title="Super Bad" year="2007" link="https://www.imdb.com/title/tt0829482/"
