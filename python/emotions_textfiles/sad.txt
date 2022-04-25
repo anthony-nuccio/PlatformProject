@@ -1,0 +1,12 @@
+//*Sad*\\
+
+img="tfios.jpg" title="The Fault in our Stars" year="2014" IMDB link=
+"https://www.imdb.com/title/tt2582846/?ref_=fn_al_tt_1"
+
+img="notebook.jpg" title="The Notebook" year="2004" IMDB link="https://www.imdb.com/title/tt0332280/?ref_=fn_al_tt_1"
+
+img="tpobaw.jpg" title="The Perks of Being a Wallflower" year="2012" IMDB link="https://www.imdb.com/title/tt1659337/?ref_=fn_al_tt_1"
+
+img="starisborn.jpg" title="A Star is Born" year="2018" IMDB link="https://www.imdb.com/title/tt1517451/?ref_=fn_al_tt_1"
+
+img="titanic.jpg" title="Titanic" year="1997" IMDB link="https://www.imdb.com/title/tt0120338/?ref_=fn_al_tt_1" 
