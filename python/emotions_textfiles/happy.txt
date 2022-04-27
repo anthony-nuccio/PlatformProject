@@ -1,9 +1,0 @@
-name="ferris.jpg" title="Ferris Bueller's Day Off" year="1986" link="https://www.imdb.com/title/tt0091042/"
-
-name="aboutTime.jpg" title="About Time" year="2013" link="https://www.imdb.com/title/tt2194499/"
-
-name="toyStory.jpg" title="Toy Story" year="1995" link="https://www.imdb.com/title/tt0114709/"
-
-name="forrestGump.jpg" title="Forrest Gump" year="1994" link="https://www.imdb.com/title/tt0109830/"
-
-name="princessPride.jpg" title="The PRincess Bride" year="1987" link="https://www.imdb.com/title/tt0093779/"
