@@ -38,8 +38,8 @@ var getForrest = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Forrest+Gump", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.forrestPlot;
-		document.getElementById("forrestPlot").textContent=Plot;
+		var Plot = data.Plot;
+		document.getElementById("Plot").textContent=Plot;
 	};
 	request.send();
 }
