@@ -14,8 +14,8 @@ var getFerris = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Ferris+Bueller's+Day+Off", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var ferrisPlot = data.Plot;
+		document.getElementById("ferrisPlot").textContent=ferrisPlot;
 	};
 	request.send();
 }
@@ -38,8 +38,8 @@ var getForrest = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Forrest+Gump", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.forrestPlot;
-		document.getElementById("forrestPlot").textContent=Plot;
+		var forrestPlot = data.Plot;
+		document.getElementById("forrestPlot").textContent=forrestPlot;
 	};
 	request.send();
 }
@@ -50,8 +50,8 @@ var getTitanic = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Titanic", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var titanicPlot = data.Plot;
+		document.getElementById("titanicPlot").textContent=titanicPlot;
 	};
 	request.send();
 }
@@ -62,8 +62,8 @@ var getNotebook = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=The+Notebook", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var notebookPlot = data.Plot;
+		document.getElementById("notebookPlot").textContent=notebookPlot;
 	};
 	request.send();
 }
@@ -74,8 +74,8 @@ var getFaultInStars = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=The+Fault+in+Our+Stars", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var fisPlot = data.Plot;
+		document.getElementById("fisPlot").textContent=fisPlot;
 	};
 	request.send();
 }
@@ -86,20 +86,20 @@ var getMontyPython = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Monty+Python+and+the+Holy+Grail", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var mpPlot = data.Plot;
+		document.getElementById("mpPlot").textContent=mpPlot;
 	};
 	request.send();
 }
 
 //ANCHORMAN//
-var getAnchorman = function(){
+var getClueless = function(){
 	var request = new XMLHttpRequest();
-	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Anchorman", true);
+	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Clueless", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var cluelessPlot = data.Plot;
+		document.getElementById("cluelessPlot").textContent=cluelessPlot;
 	};
 	request.send();
 }
@@ -110,8 +110,8 @@ var getAirplane = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Airplane", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var airplanePlot = data.Plot;
+		document.getElementById("airplanePlot").textContent=airplanePlot;
 	};
 	request.send();
 }
@@ -122,8 +122,8 @@ var getSaw = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=Saw", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var sawPlot = data.Plot;
+		document.getElementById("sawPlot").textContent=sawPlot;
 	};
 	request.send();
 }
@@ -134,8 +134,8 @@ var getShining = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=The+Shining", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var shiningPlot = data.Plot;
+		document.getElementById("shiningPlot").textContent=shiningPlot;
 	};
 	request.send();
 }
@@ -146,8 +146,8 @@ var getConjuringcd  = function(){
 	request.open("GET", "http://www.omdbapi.com/?apikey=8af1471b&t=The+Conjuring", true);
 	request.onload = function(){
 		var data = JSON.parse(this.response);
-		var Plot = data.Plot;
-		document.getElementById("Plot").textContent=Plot;
+		var conjPlot = data.Plot;
+		document.getElementById("conjPlot").textContent=conjPlot;
 	};
 	request.send();
 }
